@@ -72,6 +72,7 @@ class Customer(models.Model):
     MEMBERSHIP_BRONZE = "B"
     MEMBERSHIP_SLIVER = "S"
     MEMBERSHIP_GOLD = "G"
+    MEMBERSHIP_Y = "SAD"
     MEMBERSHIP_CHOICES = [
         (MEMBERSHIP_BRONZE, "Bronze"),
         (MEMBERSHIP_SLIVER, "Sliver"),
